@@ -3,9 +3,9 @@ A ideia do projeto é a criação de uma função que gera de um número inteiro
 
 Para restringir os números que não entram na lógica, foi utilizado um if que verifica se o número está entre 1 e 128.
 
-if (quociente < 1 || quociente > 128){
-        cout << "Número inválido";
-    }
+    if (quociente < 1 || quociente > 128){
+            cout << "Número inválido";
+        }
     
 Usamos o  static int digitosBinarios[8], indice = 0; para garantir que os números binários possuirem apenas 8 diígitos. E não haver manipulação durante o escopo do script.
 
