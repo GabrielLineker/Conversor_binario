@@ -16,5 +16,4 @@ int main(){
 do{
 
 } while();
-
-#
+ /*oiiii*/
