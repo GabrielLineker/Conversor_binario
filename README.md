@@ -11,11 +11,11 @@ Usamos o  static int digitosBinarios[8], indice = 0; para garantir que os númer
 
 A lógica ultilizada é funcional para números de 1 a 128 usando a loopagem por método while de uma divisão sequencial de 2 e interrompendo quando quociente zerar:
 
-while (quociente > 0) {
-            resto = (quociente%2);
-            quociente = (quociente/2);
-            digitosBinarios[indice++] = resto;
-        }
+        while (quociente > 0) {
+                    resto = (quociente%2);
+                    quociente = (quociente/2);
+                    digitosBinarios[indice++] = resto;
+                }
 
 O for foi ultizado para imprimir os números binários na tela da maneira lógica do sistema que é os valores do resto em sequencia inversa.
 
@@ -27,10 +27,10 @@ O for foi ultizado para imprimir os números binários na tela da maneira lógic
 
 O int main traz o input para a inserção de um número e a chamada da função.
 
-int num;
-    cout << "Digite um número entre 1 a 128: ";
-    cin >> num;
+        int num;
+            cout << "Digite um número entre 1 a 128: ";
+            cin >> num;
 
-    converte_em_binario(num);
+            converte_em_binario(num);
 
 Esse desafio foi proposto pelo professor Gabriel Henrique de Souza.
