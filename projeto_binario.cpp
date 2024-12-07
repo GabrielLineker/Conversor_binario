@@ -14,7 +14,7 @@ void converte_em_binario(int num){
             quociente = (quociente/2);
             digitosBinarios[indice++] = resto;
         }
-
+        cout << "Número em binário: "; 
         for (int i = indice - 1; i >= 0; i--) {
             cout << digitosBinarios[i];
         }
